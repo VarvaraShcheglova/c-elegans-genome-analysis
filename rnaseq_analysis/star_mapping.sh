@@ -10,6 +10,7 @@ srun -c4 -n1 --mem=40G STAR --runMode genomeGenerate \
   --genomeFastaFiles Caenorhabditis_elegans.WBcel235.dna.toplevel.fa
 
 # Alignment of RNA-seq reads
+
 # For pha-4 condition (pharynx differentiation)
 srun -c8 -n1 --mem=40G STAR --runMode alignReads --genomeDir star_index --runThreadN 8 \
   --outSAMtype BAM Unsorted \
