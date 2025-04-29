@@ -4,7 +4,7 @@ This project demonstrates a full **genome assembly and RNA-seq analysis pipeline
 
 ---
 
-## 🧬 Project Goals
+## Project Goals
 
 - Assemble the *C. elegans* genome using raw long-read sequencing data (PacBio HiFi).
 - Compare two assemblers: **Flye** and **Hifiasm**.
@@ -15,7 +15,7 @@ This project demonstrates a full **genome assembly and RNA-seq analysis pipeline
 
 ---
 
-## 🧪 Tools & Technologies
+## Tools & Technologies
 
 - **Genome assembly**: Flye v2.9.5, Hifiasm
 - **Quality control**: FastQC, QUAST, BUSCO
@@ -30,7 +30,7 @@ This project demonstrates a full **genome assembly and RNA-seq analysis pipeline
 
 ---
 /////CHECK
-## 📈 Key Results
+## Key Results
 
 - **Flye assembly outperformed Hifiasm** in BUSCO completeness (Flye: 94.8% vs Hifiasm: 90.9%).
 - RNA-seq mapping rates were **consistently high (>70%)**.
