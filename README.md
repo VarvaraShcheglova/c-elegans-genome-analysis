@@ -1,6 +1,6 @@
 # Genome Assembly and Differential Expression Analysis of *C. elegans*
 
-This project demonstrates a full **genome assembly and RNA-seq analysis pipeline**, performed in an HPC environment.
+This project demonstrates a full genome assembly and RNA-seq analysis pipeline, performed in an HPC environment.
 
 ---
 
