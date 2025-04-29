@@ -26,7 +26,7 @@ This project demonstrates a full **genome assembly and RNA-seq analysis pipeline
 - **Languages & Environment**:  
   - R (DESeq2, pheatmap)  
   - Shell scripts (SLURM HPC)  
-  - Python/Unix commands (pipeline integration)
+  - Python/Unix commands
 
 ---
 /////CHECK
