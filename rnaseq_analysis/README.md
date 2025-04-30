@@ -1,23 +1,28 @@
 # RNA-seq Analysis Pipeline
 
-This folder contains scripts for processing *Caenorhabditis elegans* RNA-seq data as part of a genome analysis and gene expression study.
+This folder contains scripts for processing *Caenorhabditis elegans* RNA-seq data.
 
 ## Steps Included
 
 1. **Genome Indexing and Read Mapping**
    - Script: `star_mapping.sh`
-   - Tools: [STAR aligner](https://github.com/alexdobin/STAR)
+   - Tools: [STAR aligner]
    - Description: Aligns paired-end RNA-seq reads to the *C. elegans* reference genome (WBcel235).
 
 2. **Feature Counting**
    - Script: `featurecounts.sh`
-   - Tools: [Subread FeatureCounts](http://bioinf.wehi.edu.au/featureCounts/)
+   - Tools: [Subread FeatureCounts]
    - Description: Generates a count matrix of gene-level expression.
 
 3. **Differential Gene Expression Analysis**
    - Script: `deseq2_analysis.R`
-   - Tools: [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html), `pheatmap`
+   - Tools: [DESeq2], `pheatmap`
    - Description: normalization (VST/RLOG), sample clustering, PCA, and detection of differentially expressed genes.
+4. **Visualization of Top Genes**
+   - Script: `plot_top_genes.R`
+   - Tool: `pheatmap`
+   - Description: pheatmaps of the top differentially expressed genes ranked by p-value and log2 fold                    change for identifying potential biomarkers or transcriptional signatures.
+
 
 ## Notes
 
