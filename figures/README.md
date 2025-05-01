@@ -1,4 +1,4 @@
-## In this folder the most essential visualizations/tables are presented
+## This folder contains key visualizations and tables generated during the RNA-seq analysis
 ## Description:
 
 ### PCA Plot (after normalization)
@@ -16,4 +16,4 @@ Visualization of differentially expressed genes.
 ![Heatmap 25](figures/heatmap_top25.png)
 
 ### Table – Final Top 10 Genes
-![Heatmap 10](figures/heatmap_top10_pvalue.png)
+![Heatmap 10](figures/heatmap_top1.png)
