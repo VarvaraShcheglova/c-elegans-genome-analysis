@@ -1,6 +1,4 @@
 ## This folder contains key visualizations and tables generated during the RNA-seq analysis
-**Description:**
-
 **PCA Plot (after normalization)**
 - Shows clear tissue separation using normalized data (rlog).
 
