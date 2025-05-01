@@ -29,11 +29,11 @@ This project demonstrates a full genome assembly and RNA-seq analysis pipeline, 
   - Python/Unix commands
 
 ---
-/////CHECK
 ## Key Results
 
-- **Flye assembly outperformed Hifiasm** in BUSCO completeness (Flye: 94.8% vs Hifiasm: 90.9%).
-- RNA-seq mapping rates were **consistently high (>70%)**.
+- Flye assembly outperformed Hifiasm in BUSCO completeness (Flye: **96.8%** vs Hifiasm: **94.4%**).
+- RNA-seq mapping rates were **>70%**, confirming pipeline reliability.
 - **167 genes** were significantly upregulated in pha-4 vs both other tissues.
-- From these, **25 genes (p < 1e-7)** were selected as top candidates, some linked to **pharynx lineage differentiation**.
+- From these, **25 genes (p < 1e-7)** were selected as top candidates.
 - Visualized using PCA plots, MA plots, and clustered heatmaps.
+- Final **top 10** pha-4-specific genes were selected based on known involvement in pharynx development, muscle structure, and neuronal signaling.
