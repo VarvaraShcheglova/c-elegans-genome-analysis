@@ -2,10 +2,10 @@
 **Description:**
 
 **PCA Plot (after normalization)**
-Shows clear tissue separation using normalized data (rlog).
+- Shows clear tissue separation using normalized data (rlog).
 
 **MA Plot (pha-4 vs end-1)**
-Visualization of differentially expressed genes.
+- Visualization of differentially expressed genes.
 
 **Heatmap – 167 upregulated genes in pha-4**
 
